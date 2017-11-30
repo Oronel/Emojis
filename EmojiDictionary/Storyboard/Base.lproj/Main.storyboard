@@ -61,6 +61,11 @@
                                         <constraint firstItem="yaF-v6-6rK" firstAttribute="top" secondItem="nv7-Ct-FiO" secondAttribute="top" id="o6k-Mm-mLk"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="Yhg-0y-TtK" id="Tzu-HS-qz4"/>
+                                    <outlet property="nameLabel" destination="Fdw-b6-Lkl" id="aZQ-ue-hcz"/>
+                                    <outlet property="symbolLabel" destination="Uht-lW-i5V" id="maB-Pi-Qyq"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
