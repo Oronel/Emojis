@@ -25,8 +25,19 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaF-v6-6rK">
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaF-v6-6rK" userLabel="horizontal stack">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤯" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uht-lW-i5V" userLabel="symbol label">
+                                                    <rect key="frame" x="0.0" y="0.0" width="23" height="43.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6oo-7C-Fno" userLabel="vertical Stack">
+                                                    <rect key="frame" x="23" y="0.0" width="352" height="43.5"/>
+                                                </stackView>
+                                            </subviews>
                                         </stackView>
                                     </subviews>
                                     <constraints>
